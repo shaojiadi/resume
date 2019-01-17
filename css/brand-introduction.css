@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* 顶端图片 */
+.head-img{
+    position:relative;
+    width:100%;
+}
+.fixed-hero{
+    width:100%;
+    height:120px;
+    position: absolute;
+    top:140px;
+}
+.fixed-herom{
+    margin:0 auto;
+    width:940px;
+    height:120px;
+    overflow: hidden;
+}
+.fixed-heros{
+    width:162px;
+    height:60px;
+    margin:30px auto;
+    border-bottom:3px solid #f00;
+}
+.fixed-heros span{
+    font-size:40px;
+    font-weight:bold;
+    color:#ccc;
+}
+/* 导航 */
+.nav{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #aaa;
+    margin-bottom:50px;
+}
+.nav-m,.nav-m ul{
+    width:940px;
+    height:100%;
+    margin:0 auto;
+}
+
+.nav-m ul{
+    list-style: none;
+    text-align: center;
+}
+.nav-m ul li{
+    display:inline-block;
+    padding:0 30px;
+}
+.nav-m ul a{
+    text-decoration: none;
+    color:#000;
+}
+.nav-m ul li:hover{
+    color:#00adef;
+    border-bottom:3px solid #00adef;
+    cursor: pointer;
+}
+/* 梅塞德斯-奔驰 */
+.merceds{
+    width:100%;
+}
+.merceds-head{
+    width:100%;
+    height:312px;
+    overflow: hidden;
+}
+.merceds-head h3{
+    width:940px;
+    margin:50px auto;
+    margin-top:60px;
+    text-align: center;
+    position: relative;
+}
+.merceds-head h3 span{
+    font: normal 400 36px/50px "SimSun",serif;
+    color:#666;
+}
+.merceds-head h3 span::before{
+    content:'';
+    width: 340px;
+    height: 1px;
+    background-color: #e1e1e1;
+    position: absolute;
+    left:0;
+    z-index: 1;
+    top: 25px;
+}
+.merceds-head h3 span::after{
+    content:'';
+    width: 340px;
+    height: 1px;
+    background-color: #e1e1e1;
+    position: absolute;
+    right:0;
+    z-index: 1;
+    top: 25px;
+}
+.merceds-section{
+    width:940px;
+    margin:0 auto;
+    margin-bottom:50px;
+    color:#333;
+}
+.merceds-section p{
+    text-align: center;
+    font-size:16px;
+}
+.merceds-img{
+    width:100%;
+    display: block;
+}
+/* 瞰思未来 C.A.S.E  */
+.merceds-heads{
+    height:256px;
+}
+/*c*/
+.case{
+    width:100%;
+    height:900px;
+    background:rgba(0,0,0,0.3);
+    position: relative;
+}
+.case-img{
+    width:100%;
+    height:900px;
+}
+.response-img{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    left:200px;
+    top: 70px;
+}
+.case-section-heighter{
+    position:absolute;
+    top: 210px;
+    left: 410px;
+}
+.section-heighter-p1{
+    font-size: 30px;
+    color: #aaa;
+}
+.section-heighter-p2{
+    font-size:20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.swiper-slide{
+    width: 600px;
+    position: absolute;
+    top: 430px;
+    right: 200px;
+}
+.swiper-img{
+    width: 250px;
+    height: 250px;
+}
+.case-section{
+    width:250px;
+    height:105px;
+    font-size: 16px;
+    letter-spacing:0.5px;
+    line-height: 2;
+    margin-top:20px;
+    color:#fff;
+}
+.swiper{
+    display: inline-block;
+    margin-right:37px;
+}
+.swipers{
+    position:absolute;
+    top:-165px;
+}
+/*a*/
+.case2{
+    position:relative;
+}
+.response-img2{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    right:400px;
+    top: 70px;
+}
+.case-section-heighters{
+    position:absolute;
+    top: 280px;
+    right:306px;
+    color:#666;
+}
+.section-heighters-p1{
+    font-size: 30px;
+}
+.section-heighters-p2{
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.swiper-slides{
+    width: 800px;
+    margin-right: 37px;
+    position: absolute;
+    top: 430px;
+    right: 500px;
+    display: flex;
+}
+.swipper-slides-p{
+    color:#000;
+}
+.swiper-middle{
+    position: relative;
+    top:-170px;
+}
+/*心所向 驰以恒*/
+.float{
+    margin-top:50px;
+    position: relative;
+}
+.float img{
+    width:100%;
+}
+.text-bg{
+    position: absolute;
+    text-align:left;
+    left:200px;
+    top:170px;
+    width:347px;
+}
+.text-bg1{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #666;
+    font-size:24px;
+}
+.text-bg2{
+    letter-spacing:0.5px;
+    color:#333;
+    line-height:2;
+}

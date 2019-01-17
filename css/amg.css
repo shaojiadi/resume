@@ -1,0 +1,354 @@
+*{margin:0;padding:0}
+.heroBanner_sup{
+    width:100%;
+    display:block;
+}
+.heroBanner_sub{
+    width:101%;
+    display:block;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.img-left{
+    display:block;
+}
+/* 导航 */
+.nav{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    background:#000;
+}
+.nav-m,.nav-m ul{
+    width:940px;
+    height:100%;
+    margin:0 auto;
+}
+
+.nav-m ul{
+    list-style: none;
+    text-align: center;
+}
+.nav-m ul li{
+    display:inline-block;
+    padding:0 20px;
+}
+
+.nav-m ul a:hover{
+    color:#f00;
+    cursor: pointer;
+}
+/*第一个视频*/
+.section-header__video{
+    width:100%;
+    display:block;
+}
+/*AMG车型*/
+.container{
+    position: relative;
+    width:100%;
+    height:350px;
+}
+.amg-data{
+    background: #000;
+    color:#fff;
+}
+.amg-data-header{
+    width:100%;
+    height:115px;
+}
+.section-header__subtitle{
+    width:940px;
+    margin:0 auto;
+    padding-top:55px;
+    text-align: center;
+    font-size:30px;
+}
+.menu-car-list{
+    display:flex;
+    justify-content:center;
+    padding: 20px 0;
+    width:940px;
+    margin:0 auto;
+}
+.menu-car-l1{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right:50px;
+    color:#fff;
+    cursor: pointer;
+}
+.menu-car-titleS{
+    margin-bottom:12px;
+}
+.menu-car-l1:active{
+    border-bottom: 3px solid #f00;
+}
+#container>ul.show{display:block;}
+.menu-car-list2{
+    position: absolute;
+    left:18%;
+    margin-top:20px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+#container>ul{
+    display:none;
+}
+.menu-car-li1{
+    width:210px;
+    margin-right:21px;
+    height:315px;
+    display: inline-block;
+    overflow: hidden;
+    color:#fff;
+}
+.menu-car-li2{
+    height:500px;
+}
+.s-image{
+    width:200px;
+    height: 87px;
+}
+.menu-car-s{
+    font: normal 400 36px/1 "SimSun",serif;
+}
+.menu-car-text{
+  padding-top:16px;
+}
+.menu-ct-p2{
+    margin-top:20px;
+}
+.menu-ct-p3{
+  margin-top:10px;
+  font-size:11px;
+}
+
+/* 关于amg*/
+.section-header{
+    width:100%;
+    background: #000;
+}
+.section-header-title{
+    width:940px;
+    height:130px;
+    margin:0 auto;
+    color:#fff;
+    text-align: center;
+}
+.section-header-title>p{
+    padding-top:55px;
+    font-size:32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-amg{
+    position:relative;
+}
+.about-amg-bk{
+    width:100%;
+    background:#000;
+    height:600px;
+}
+.about-amg-bg{
+    width:100%;
+    height:600px;
+}
+.about-amg-bimg{
+    float:right;
+    height:100%;
+}
+
+.warapper{
+    position: absolute;
+    width:940px;
+    height:100%;
+    top:0%;
+    left:290px;
+}
+.wrapper-txt{
+    margin-top:200px;
+    width:400px;
+    height:185px;
+    color:#fff;
+}
+.wrapper-txt>h1{
+    margin-bottom:18px;
+    font: normal 400 36px/1.89 "SimSun",serif;
+}
+.font-base{
+    font: normal 400 16px/1.89 "SimSun",serif;
+}
+
+.about-amg-con{
+    position:relative;
+}
+.menu-select{
+    position: absolute;
+    display:flex;
+    top:140px;
+    right:630px;
+    font-size:20px;
+}
+.menu-select>li{
+    margin-right:25px;
+}
+.about-amg-content{
+    width:476px;
+    position: absolute;
+    top:250px;
+    right:550px;
+}
+.aic-p1{
+    font: normal 400 30px/1.89 "SimSun",serif;
+    margin-bottom:30px;
+}
+.aic-a{
+    margin-top:30px;
+    font-size:20px;
+    color:#000;
+    display: block;
+}
+.aic-a::after{
+    margin-left: 10px;
+    content: "";
+    font-family: "cn-icons";
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    color: #000
+}
+/* img故事 */
+.img-right{
+    display:block;
+    float: right;
+}
+.amg-story{
+    position: relative;
+}
+.about-amg-contents{
+    color:#fff;
+}
+.amg-orgin{
+    position: relative;
+}
+.menu-select2{
+    position: absolute;
+    display:flex;
+    top:140px;
+    left:430px;
+    font-size:20px;
+}
+.about-orgin-txt{
+    top:240px;
+    left:430px;
+    width:476px;
+    position: absolute;
+}
+/*AMG工程技术*/
+.amg-tec{
+    position: relative;
+    color:#fff;
+}
+.amg-tec-img{
+    width:100%;
+    height:600px;
+    display:block;
+}
+/* 体验img */
+.video-main{
+    position: relative;
+}
+.video-main>video{
+    display:block;
+    width:100%;
+}
+.video-main>img{
+    width:100%;
+    position: absolute;;
+    top:0;
+}
+/*amg赛车活动*/
+.racing-header{
+    width:100%;
+    background: #000;
+}
+.racing-header>p{
+    width:620px;
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    padding-bottom:50px;
+}
+.racing-bg{
+    background:#000;
+    width:100%;
+    height:500px;
+}
+.racing-img{
+    width:65%;
+    height:500px;
+    display: block;
+    margin:0 auto;
+}
+/*amg驾驶学院*/
+/*车主俱乐部*/
+.more{
+    display:block;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #c00;
+    color: #fff;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+/*AMG新闻*/
+.amg-new-body{
+    width:940px;
+    margin:0 auto;
+}
+.AMG-NEW{
+    height:400px;
+    width:100%;
+    display:block;
+}
+.amg-news{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px;
+    margin-bottom:70px;
+}
+.amg-new-img{
+    width:300px;
+    height:180px;
+}
+.amg-news-txt{
+    margin-top:20px;
+}
+.amg-news-txt>p{
+    color:#aaa;
+    font-size:10px;
+    text-shadow:1px 1px 8px #0aa1ed;
+    margin-bottom:25px;
+}
+.amg-footer{
+    padding-top:100px;
+    width:100%;
+    height:600px;
+    background: #000;
+}
+.amg-footer-m{
+    width:940px;
+    margin:0 auto;
+}
+.amg-footer-m>P{
+    color:#c7c7c7;
+    margin-top:10px;
+}
+.amg-enjoy{
+    color:#fff;
+  }
